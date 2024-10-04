@@ -1,0 +1,47 @@
+.outer{
+    height: 100vh;
+    width: 5vw;
+    /* background-color: blanchedalmond; */
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 0.5rem;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+    background-color: rgb(94, 92, 92);
+}
+
+.menuItems{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+
+.menuItem{
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.active {  
+    background-color: rgb(69, 69, 76);
+  }  
+
+.menuItem:hover{
+    transform: scale(1.1);
+    background-color: rgb(94, 92, 92);
+}
